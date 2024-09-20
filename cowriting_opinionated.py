@@ -15,7 +15,7 @@ client = OpenAI(api_key=api_key)
 temperature = 0.85
 frequency_penalty = 1.0
 presence_penalty = 1.0
-timeout_duration = 10  # Timer set for 10 seconds
+timeout_duration = 1.5  # Timer set for 10 seconds
 
 # Function to generate opinionated text
 def generate_gpt4_continuation(prompt, stance):
